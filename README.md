@@ -20,7 +20,7 @@ python setup.py install
             <h5>4. http://127.0.0.1:5000/authorize/</h5>
   *Doing this will help spotify know where to redirect the user back when the done talking*
   
-  * Then copy your app **clientid** and **clientsecret** and paste in it the SpotifyOAuth object in the **create_sp_oauth** inside of app.py. Don't show anyone the **clientsecret** cause they can access to your data.
+  * Then copy your app **clientid** and **clientsecret** and paste in it the SpotifyOAuth object in the **create_sp_oauth()** inside of **app.py**. Don't show anyone the **clientsecret** cause they can access to your data.
 ## Step 3: Run the app.py
  ```
 python app.y
