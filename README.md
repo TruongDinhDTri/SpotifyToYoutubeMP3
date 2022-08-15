@@ -21,13 +21,13 @@ python setup.py install
   *Doing this will help spotify know where to redirect the user back when the done talking*
   
   * Then copy your app **clientid** and **clientsecret** and paste in it the SpotifyOAuth object in the **create_sp_oauth()** inside of **app.py**. Don't show anyone the **clientsecret** cause they can access to your data.
-## Step 3: Run the app.py
+## Step 3: Run the app.py with Flask
  ```
-python app.y
+flask run
 ```
 ## Step 4: Run the downloadvideos.py 
 ```
-python app.y
+python downloadvideos.py
 ```
   
 There you go!!!
